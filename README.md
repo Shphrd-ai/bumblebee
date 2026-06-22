@@ -57,10 +57,10 @@ Requires Go 1.25+. Zero non-stdlib dependencies.
 
 ```sh
 # Install the latest tagged release into $GOBIN.
-go install github.com/perplexityai/bumblebee/cmd/bumblebee@latest
+go install github.com/Shphrd-ai/bumblebee/cmd/bumblebee@latest
 
 # Or pin a specific tag.
-go install github.com/perplexityai/bumblebee/cmd/bumblebee@v0.1.1
+go install github.com/Shphrd-ai/bumblebee/cmd/bumblebee@v0.1.1
 ```
 
 To build from a checkout:
