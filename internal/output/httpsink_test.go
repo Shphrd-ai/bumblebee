@@ -13,7 +13,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/perplexityai/bumblebee/internal/model"
+	"github.com/Shphrd-ai/bumblebee/internal/model"
 )
 
 func TestHTTPSink_RejectsPlainHTTPToRemote(t *testing.T) {

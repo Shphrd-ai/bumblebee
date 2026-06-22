@@ -23,7 +23,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/perplexityai/bumblebee/internal/model"
+	"github.com/Shphrd-ai/bumblebee/internal/model"
 )
 
 // idShape constrains the OSV record id before it is embedded in the

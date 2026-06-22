@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/perplexityai/bumblebee/internal/model"
+	"github.com/Shphrd-ai/bumblebee/internal/model"
 )
 
 // Current returns the host identity used in every emitted record.

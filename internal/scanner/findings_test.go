@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/perplexityai/bumblebee/internal/exposure"
-	"github.com/perplexityai/bumblebee/internal/model"
-	"github.com/perplexityai/bumblebee/internal/output"
+	"github.com/Shphrd-ai/bumblebee/internal/exposure"
+	"github.com/Shphrd-ai/bumblebee/internal/model"
+	"github.com/Shphrd-ai/bumblebee/internal/output"
 )
 
 // TestFindingEmittedOnCatalogMatch verifies that an exposure catalog

@@ -38,7 +38,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/perplexityai/bumblebee/internal/osv"
+	"github.com/Shphrd-ai/bumblebee/internal/osv"
 )
 
 func main() {

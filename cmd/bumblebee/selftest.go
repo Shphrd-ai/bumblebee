@@ -11,11 +11,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/perplexityai/bumblebee/internal/endpoint"
-	"github.com/perplexityai/bumblebee/internal/exposure"
-	"github.com/perplexityai/bumblebee/internal/model"
-	"github.com/perplexityai/bumblebee/internal/output"
-	"github.com/perplexityai/bumblebee/internal/scanner"
+	"github.com/Shphrd-ai/bumblebee/internal/endpoint"
+	"github.com/Shphrd-ai/bumblebee/internal/exposure"
+	"github.com/Shphrd-ai/bumblebee/internal/model"
+	"github.com/Shphrd-ai/bumblebee/internal/output"
+	"github.com/Shphrd-ai/bumblebee/internal/scanner"
 )
 
 //go:embed all:selftest/fixtures selftest/catalog.json

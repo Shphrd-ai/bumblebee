@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/perplexityai/bumblebee/internal/model"
+	"github.com/Shphrd-ai/bumblebee/internal/model"
 )
 
 func TestParseWrappedForm(t *testing.T) {

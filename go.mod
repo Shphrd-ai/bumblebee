@@ -1,3 +1,3 @@
-module github.com/perplexityai/bumblebee
+module github.com/Shphrd-ai/bumblebee
 
 go 1.25

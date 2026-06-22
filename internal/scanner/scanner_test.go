@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/perplexityai/bumblebee/internal/model"
-	"github.com/perplexityai/bumblebee/internal/output"
+	"github.com/Shphrd-ai/bumblebee/internal/model"
+	"github.com/Shphrd-ai/bumblebee/internal/output"
 )
 
 func writeFile(t *testing.T, path, body string) {

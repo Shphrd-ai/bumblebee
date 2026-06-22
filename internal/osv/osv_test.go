@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/perplexityai/bumblebee/internal/exposure"
-	"github.com/perplexityai/bumblebee/internal/model"
+	"github.com/Shphrd-ai/bumblebee/internal/exposure"
+	"github.com/Shphrd-ai/bumblebee/internal/model"
 )
 
 func TestConvertMaliciousOnlyByDefault(t *testing.T) {

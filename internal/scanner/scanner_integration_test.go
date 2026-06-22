@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/perplexityai/bumblebee/internal/model"
-	"github.com/perplexityai/bumblebee/internal/output"
+	"github.com/Shphrd-ai/bumblebee/internal/model"
+	"github.com/Shphrd-ai/bumblebee/internal/output"
 )
 
 // TestExpandedEcosystems exercises end-to-end dispatch for every ecosystem

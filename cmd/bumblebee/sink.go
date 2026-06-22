@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/perplexityai/bumblebee/internal/output"
+	"github.com/Shphrd-ai/bumblebee/internal/output"
 )
 
 // sinkHTTPOpts groups the HTTP-specific options for --output=http so the

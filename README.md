@@ -288,3 +288,40 @@ catalog list and review guidance.
 ## License
 
 Apache License 2.0. See [LICENSE](LICENSE).
+
+---
+
+## Shphrd-ai Fork Strategy
+
+This repository is maintained by [Shphrd-ai](https://github.com/Shphrd-ai) as a
+security-research fork of [perplexityai/bumblebee](https://github.com/perplexityai/bumblebee).
+
+### What we extend
+
+| Area | Change |
+|---|---|
+| Threat intelligence catalogs | `threat_intel/` updated with CyberShepherd-curated supply-chain campaigns |
+| MCP inventory | Extended MCP host-config coverage for agent frameworks |
+| Output sinks | Additional HTTPS sink targets for CyberShepherd pipeline |
+| CI | Added `govulncheck` gate and fork-aware build identifiers |
+
+### What we sync from upstream
+
+- Core scan engine (`internal/scanner`, `internal/ecosystem/*`)
+- OSV integration (`internal/osv`)
+- Output record schema (`schema_version`)
+- Bug fixes and CVE patches from `perplexityai/bumblebee` releases
+
+### Sync cadence
+
+We track upstream releases via the `upstream-v*` tags in this repo.
+To pull upstream changes:
+
+```sh
+git remote add upstream https://github.com/perplexityai/bumblebee.git
+git fetch upstream
+git merge upstream/main --no-ff
+```
+
+Upstream release tags are preserved verbatim (e.g., `upstream-v0.1.1`) so
+diffs between Shphrd-ai extensions and upstream are always attributable.

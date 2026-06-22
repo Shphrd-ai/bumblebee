@@ -15,7 +15,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/perplexityai/bumblebee/internal/model"
+	"github.com/Shphrd-ai/bumblebee/internal/model"
 )
 
 const Ecosystem = model.EcosystemHomebrew
